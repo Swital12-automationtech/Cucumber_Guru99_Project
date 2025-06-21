@@ -23,7 +23,7 @@ public class New_AccountCreationPage extends BaseClass {
 	}
 	/*@FindBy(xpath="//a[text()='New Account']")
 	WebElement accountlink;*/
-	@FindBy(xpath="//input[@name='cusid1']")
+	@FindBy(xpath="//input[@name='cusid']")
 	WebElement custid;
 	@FindBy(xpath="//Select[@name='selaccount']")
 	WebElement accounttype;
